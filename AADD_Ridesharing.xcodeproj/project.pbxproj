@@ -12,6 +12,12 @@
 		32499D30225C305C0017A323 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32499D2E225C305C0017A323 /* Main.storyboard */; };
 		32499D32225C305D0017A323 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32499D31225C305D0017A323 /* Assets.xcassets */; };
 		32499D35225C305D0017A323 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32499D33225C305D0017A323 /* LaunchScreen.storyboard */; };
+		32499D3D225C37500017A323 /* DesignableView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32499D3C225C37500017A323 /* DesignableView.swift */; };
+		32499D41225C40FF0017A323 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32499D40225C40FF0017A323 /* GoogleService-Info.plist */; };
+		32499D43225C43210017A323 /* RegistrationViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32499D42225C43210017A323 /* RegistrationViewController.swift */; };
+		32499D45225ED7F70017A323 /* DecisionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32499D44225ED7F70017A323 /* DecisionViewController.swift */; };
+		32499D47225EE2C40017A323 /* MapScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32499D46225EE2C40017A323 /* MapScreen.swift */; };
+		4965E002593071C3ED203231 /* Pods_AADD_Ridesharing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7881BC6CE3A829E2E7DCAEC5 /* Pods_AADD_Ridesharing.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +28,14 @@
 		32499D31225C305D0017A323 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		32499D34225C305D0017A323 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		32499D36225C305D0017A323 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32499D3C225C37500017A323 /* DesignableView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DesignableView.swift; sourceTree = "<group>"; };
+		32499D40225C40FF0017A323 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		32499D42225C43210017A323 /* RegistrationViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RegistrationViewController.swift; sourceTree = "<group>"; };
+		32499D44225ED7F70017A323 /* DecisionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DecisionViewController.swift; sourceTree = "<group>"; };
+		32499D46225EE2C40017A323 /* MapScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapScreen.swift; sourceTree = "<group>"; };
+		60531CDACD117B1A97796112 /* Pods-AADD_Ridesharing.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AADD_Ridesharing.debug.xcconfig"; path = "Target Support Files/Pods-AADD_Ridesharing/Pods-AADD_Ridesharing.debug.xcconfig"; sourceTree = "<group>"; };
+		7881BC6CE3A829E2E7DCAEC5 /* Pods_AADD_Ridesharing.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AADD_Ridesharing.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		ABBDE6391EDA763208E3D5BC /* Pods-AADD_Ridesharing.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AADD_Ridesharing.release.xcconfig"; path = "Target Support Files/Pods-AADD_Ridesharing/Pods-AADD_Ridesharing.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +43,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4965E002593071C3ED203231 /* Pods_AADD_Ridesharing.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +55,8 @@
 			children = (
 				32499D29225C305C0017A323 /* AADD_Ridesharing */,
 				32499D28225C305C0017A323 /* Products */,
+				FF7884493EBC54B0C6F607ED /* Pods */,
+				4A4AF0DB8A9DC08598B9FBA7 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -54,14 +71,36 @@
 		32499D29225C305C0017A323 /* AADD_Ridesharing */ = {
 			isa = PBXGroup;
 			children = (
+				32499D40225C40FF0017A323 /* GoogleService-Info.plist */,
 				32499D2A225C305C0017A323 /* AppDelegate.swift */,
+				32499D42225C43210017A323 /* RegistrationViewController.swift */,
 				32499D2C225C305C0017A323 /* ViewController.swift */,
 				32499D2E225C305C0017A323 /* Main.storyboard */,
+				32499D46225EE2C40017A323 /* MapScreen.swift */,
+				32499D44225ED7F70017A323 /* DecisionViewController.swift */,
+				32499D3C225C37500017A323 /* DesignableView.swift */,
 				32499D31225C305D0017A323 /* Assets.xcassets */,
 				32499D33225C305D0017A323 /* LaunchScreen.storyboard */,
 				32499D36225C305D0017A323 /* Info.plist */,
 			);
 			path = AADD_Ridesharing;
+			sourceTree = "<group>";
+		};
+		4A4AF0DB8A9DC08598B9FBA7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7881BC6CE3A829E2E7DCAEC5 /* Pods_AADD_Ridesharing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF7884493EBC54B0C6F607ED /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60531CDACD117B1A97796112 /* Pods-AADD_Ridesharing.debug.xcconfig */,
+				ABBDE6391EDA763208E3D5BC /* Pods-AADD_Ridesharing.release.xcconfig */,
+			);
+			path = Pods;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -71,9 +110,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32499D39225C305D0017A323 /* Build configuration list for PBXNativeTarget "AADD_Ridesharing" */;
 			buildPhases = (
+				C67D8AC49B1A7BBE54902377 /* [CP] Check Pods Manifest.lock */,
 				32499D23225C305C0017A323 /* Sources */,
 				32499D24225C305C0017A323 /* Frameworks */,
 				32499D25225C305C0017A323 /* Resources */,
+				331F32A4BA7ABC5F5A42C905 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -123,6 +164,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32499D35225C305D0017A323 /* LaunchScreen.storyboard in Resources */,
+				32499D41225C40FF0017A323 /* GoogleService-Info.plist in Resources */,
 				32499D32225C305D0017A323 /* Assets.xcassets in Resources */,
 				32499D30225C305C0017A323 /* Main.storyboard in Resources */,
 			);
@@ -130,13 +172,68 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		331F32A4BA7ABC5F5A42C905 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AADD_Ridesharing/Pods-AADD_Ridesharing-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/GTMSessionFetcher/GTMSessionFetcher.framework",
+				"${BUILT_PRODUCTS_DIR}/GoogleUtilities/GoogleUtilities.framework",
+				"${BUILT_PRODUCTS_DIR}/nanopb/nanopb.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GTMSessionFetcher.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/GoogleUtilities.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/nanopb.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AADD_Ridesharing/Pods-AADD_Ridesharing-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C67D8AC49B1A7BBE54902377 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AADD_Ridesharing-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		32499D23225C305C0017A323 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32499D47225EE2C40017A323 /* MapScreen.swift in Sources */,
+				32499D45225ED7F70017A323 /* DecisionViewController.swift in Sources */,
 				32499D2D225C305C0017A323 /* ViewController.swift in Sources */,
 				32499D2B225C305C0017A323 /* AppDelegate.swift in Sources */,
+				32499D3D225C37500017A323 /* DesignableView.swift in Sources */,
+				32499D43225C43210017A323 /* RegistrationViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,9 +377,11 @@
 		};
 		32499D3A225C305D0017A323 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60531CDACD117B1A97796112 /* Pods-AADD_Ridesharing.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SB7H664UEC;
 				INFOPLIST_FILE = AADD_Ridesharing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -297,9 +396,11 @@
 		};
 		32499D3B225C305D0017A323 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABBDE6391EDA763208E3D5BC /* Pods-AADD_Ridesharing.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = SB7H664UEC;
 				INFOPLIST_FILE = AADD_Ridesharing/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
