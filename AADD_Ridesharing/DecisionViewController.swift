@@ -15,6 +15,12 @@ class DecisionViewController:UIViewController, UITextFieldDelegate {
     
     
     @IBAction func logoutAction(_ sender: Any) {
+        do {
+            try Auth.auth().signOut()
+            print("Signed Out!")
+        } catch {
+            print("Sign Out Failed")
+        }
         self.performSegue(withIdentifier: "LogoutAction", sender: nil)
     }
     
